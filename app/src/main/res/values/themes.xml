@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kalkulator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/sand</item>
+        <item name="colorPrimaryVariant">@color/peach</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/peach</item>
+        <item name="colorSecondaryVariant">@color/peach</item>
+        <item name="colorOnSecondary">@color/sand</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        //to remove the bar because it looks ugly
+
+    </style>
+    <style name="ActionButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/peach</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:textColor">@color/background</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/sand</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/quicksand</item>
+        <item name="android:textColor">@color/brick</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
